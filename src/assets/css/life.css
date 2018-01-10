@@ -1,0 +1,70 @@
+    @media only screen and (min-width: 410px) {
+        .lifeNav {
+            width: 86%;
+        }
+    }
+    @media only screen and (max-width: 410px) {
+        .lifeNav {
+            width: 95%;
+        }
+    }
+    .lifeContent {
+        width: 100%;
+        position: relative;
+        top:26rem;
+    }
+    /* .lifeContent .lifeNavBox{
+        width: 95%;
+        margin: 0 auto;
+        float: left;
+        position: relative;
+    } */
+    .lifeNav li {
+        background-color: rgba(122,139,139,.1);
+        height: 9rem;
+        float: left;
+        /* border:1px solid transparent; */
+        margin: 2px;
+        width: 7rem;
+    }
+    .lifeNav{
+        text-align: center;
+        /* width: 95%; */
+        margin: 0 auto;
+    }
+    .lifeNav li span{
+        font-size: 3rem;
+        margin-top: .7rem;
+        display: inline-block;
+    }
+    .lifeContent .ivalue{
+        font-size: .6rem;
+        color: rgba(250,250,250,.3);
+    }
+    .clear{
+        clear: both;
+    }
+    .icon-sick{
+        color:aquamarine;
+    }
+    .icon-sports{
+        color:coral;
+    }
+    .icon-xiche{
+        color:aqua;
+    }
+    .icon-kongqizhiyiban{
+        color:cornflowerblue;
+    }
+    .icon-ziwaixian{
+        color:tomato;   
+    }
+    .icon-kongtiao{
+        color:rgb(61, 230, 230);
+    }
+    .icon-yifu{
+        color:rgb(219, 206, 27);
+    }
+    .icon-you{
+        color:yellowgreen;
+    }

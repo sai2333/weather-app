@@ -1,0 +1,53 @@
+.box{
+    height: 100%;
+    background-color:rgb(242, 242, 242);
+    color: #656565;
+}
+.box .nav,.box .details{
+    background-color: rgb(255, 255, 255);
+}
+.box .goHome{
+    color:#656565;
+    font-weight: 600;
+    font-size: 1.6rem;
+    height: 3rem;
+    line-height: 3rem;
+    margin-left: 1.5rem;
+}
+.icon-fanhui::before{
+    margin-right: 1.5rem;
+}
+.box .details{
+    height: 35%;
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+    top: 1.5rem;
+}
+.details .conBox{
+    position: absolute;
+    top:1.5rem;
+    left:1rem;
+}
+.details .ivalue{
+    color:#ff4643;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.fright{
+    /* position: relative;
+    width: 30%;
+    top:2.5rem;
+    left:45%;
+    float: right; */
+    height: 100%;
+    overflow: hidden;
+}
+.fright img{
+    position: relative;
+    top:5rem;
+    left: 55%;
+    width: 16rem;
+    height: 14rem;
+    
+}

@@ -1,0 +1,73 @@
+.formBox{
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+}
+.formBox .goHome{
+    color:#656565;
+    font-weight: 600;
+    font-size: 1.6rem;
+    height: 3rem;
+    line-height: 3rem;
+    margin-left: 1.5rem;
+}
+.icon-fanhui::before{
+    margin-right: 1.5rem;
+}
+/* .formBox .form{
+    height: 35%;
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+    top: 1.5rem;
+} */
+.formNav {
+    border-bottom: 1px solid rgba(112,128,144,.3);
+}
+.formNav .user{
+    display: inline-block;
+    background-color: rgba(169,169,169,.3);
+    border:1px solid rgba(169,169,169,.3);
+    border-radius: 2rem;
+}
+.form .guess{
+    display: inline;
+}
+.icon-xihuan{
+    font-size: .7rem;
+}
+.form .like{
+    position: relative;
+    top:1rem;
+    margin-left: 6%;
+    color:rgba(112,128,144,.5);
+    font-weight: 600;
+}
+.form .likeCity{
+    position: relative;
+    top:2rem;
+    margin-left: 6%;
+    overflow: hidden;
+    font-weight: 600;
+}
+.likeCity .hotCity li{
+    float: left;
+    margin-right: 7.5%;
+    margin-bottom: 5%;
+    border:1px solid rgba(112,128,144,.3);
+    padding: .2rem .7rem;
+    border-radius: 2rem;
+}
+.icon-sousuo{
+    padding-left: .7rem; 
+}
+.user .bar{
+    border:none;
+    background-color: transparent;
+    color: rgb(112,128,144);
+    outline:none;
+}
+.clear{
+    clear: both;
+}

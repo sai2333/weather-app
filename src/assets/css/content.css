@@ -1,0 +1,54 @@
+	.contentPage .nav{
+		width: 90%;
+		margin: 1rem auto;
+		font-size: 1.6rem;
+	}
+	.contentPage .goHome{
+		color:#fff;
+		font-weight: 600;
+	}
+	/* .contentPage .goHome span{
+		margin-right: 1rem;
+		font-size: 2rem;
+	} */
+	.seven{
+		position: relative;
+		/* top: 3.5rem; */
+		width: 100%;
+		height: 100%;
+	}
+	.sevenContent{
+		width: 100%;
+		border-bottom: 1px solid rgba(211,211,211,.3);
+		border-top: 1px solid rgba(211,211,211,.3); 
+	}
+	.seven-content{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.seven-content li{
+		/* margin: 1rem 0 1rem 0; */
+		border-bottom: 1px solid rgba(211,211,211,.3);
+		display: inline-block;
+		width: 100%;
+		padding: 1.5rem .5rem;
+	}
+	.seven-content li .temp {
+		display: inline;
+		margin-left: 26%;
+	}
+	.seven-content li .week{
+		float: left;
+	}
+	.seven-content li .temper{
+		float: right;
+	}
+	.seven-content li img{
+		width: 2rem;
+	}
+	.seven-content li .smallFont{
+		color:rgba(211,211,211,.7)
+	}
+	.seven-content li:last-child{
+		border:none;
+	}

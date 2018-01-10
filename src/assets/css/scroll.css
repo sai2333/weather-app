@@ -1,0 +1,23 @@
+.wrapper{
+	position: relative;
+	width: 100%;
+	top: 25rem;
+	overflow: hidden;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid rgba(211,211,211,.3);
+}
+.wrapper .content{
+	width:161rem;
+
+}
+.wrapper li{
+	width: 4rem;
+	display: inline-block;
+	float: left;
+	font-size: 1rem;
+	margin-right: 2.7rem;
+	text-align:center;
+}
+.wrapper img{
+	width: 2rem;
+}
