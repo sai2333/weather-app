@@ -8,6 +8,11 @@
             width: 95%;
         }
     }
+    @media only screen and (max-width: 320px) {
+        .lifeNavBox .lifeNav li{
+            width: 8rem;
+        }
+    }
     .lifeContent {
         width: 100%;
         position: relative;
